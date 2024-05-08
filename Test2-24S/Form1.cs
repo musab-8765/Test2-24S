@@ -1,6 +1,6 @@
 using System.Reflection.Metadata;
 
-namespace Test2_24S
+namespace Test2_24s 
 {
     public partial class Form1 : Form
     {
