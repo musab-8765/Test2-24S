@@ -19,7 +19,9 @@
             }
             base.Dispose(disposing);
         }
-
+        private object m1 = null;
+        private object m2 = null;
+        private object m3 = null;
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -82,6 +84,7 @@
             button2.TabIndex = 1;
             button2.Text = "رتب تنازليا";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // Form1
             // 
