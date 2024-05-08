@@ -46,11 +46,11 @@ namespace Test2_24S
             int v3 = Convert.ToInt32(textBox3.Text);
             if (v2 > v1 && v3 > v1)
                 if (v2 > v3)
-                    
+
                     v1 = textBox3
                         v3 = textbox2
                 v2 = textBox1
-                return; 
+                return;
             {
 
             }
@@ -63,13 +63,18 @@ namespace Test2_24S
             int v2 = Convert.ToInt32(textBox2.Text);
 
             int v3 = Convert.ToInt32(textBox3.Text);
-            
-                 if (v2 > v1 && v3 > v1)
-                    if (v2 > v3) ;
-            v1= TextBox1 
-                v3 = textBox2 
+
+            if (v2 > v1 && v3 > v1)
+                if (v2 > v3) ;
+            v1 = TextBox1
+                v3 = textBox2
                 v2 = textBox3
-                return; 
+                return;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
